@@ -1,7 +1,9 @@
 {
-  "name": "react-typescript",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@marcoarnulfo/react-typescript",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",

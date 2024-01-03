@@ -26,24 +26,6 @@ Esegue una build con l'ambiente di testing, seguita da istruzioni post-build per
 
 ## Configurazione del Progetto
 
-Clone e Installazione delle Dipendenze:
-
-Dopo aver clonato il repository, esegui npm install per installare tutte le dipendenze necessarie.
-
-Configurazione delle Variabili d'Ambiente:
-Crea i file .env per i diversi ambienti (ad esempio, .env.development, .env.staging, .env.testing). Assicurati di aggiungere questi file al .gitignore per evitare di esporre informazioni sensibili.
-
-Esecuzione del Progetto:
-Utilizza npm run dev per avviare il server di sviluppo locale.
-
-Build e Deployment:
-Scegli tra npm run build-staging e npm run build-testing per eseguire la build dell'applicazione. Segui le istruzioni post-build per servire l'applicazione localmente.
-
-Collaborazione e Contributi
-Questo progetto è pensato per essere un punto di partenza flessibile per lo sviluppo di applicazioni React. Sei invitato a contribuire o a personalizzarlo secondo le tue esigenze.
-
-## Configurazione del Progetto
-
 1. **Clone e Installazione delle Dipendenze:**
 
    Dopo aver clonato il repository, esegui `npm install` per installare tutte le dipendenze necessarie.
