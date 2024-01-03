@@ -1,0 +1,16 @@
+
+/* overflow: hidden;  */
+
+.error_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.error_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
