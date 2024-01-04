@@ -1,5 +1,7 @@
 # React-Typescript
 
+## Usare 'Use this template' per partire da questa base!
+
 Questo progetto fornisce uno scaffolding basato su Vite, React e TypeScript, arricchito con ulteriori funzionalità per accelerare lo sviluppo di nuove applicazioni. Le caratteristiche principali includono:
 
 - **Base Vite React TypeScript:** Impostazione rapida e moderna con Vite per applicazioni React scritte in TypeScript.
@@ -7,22 +9,6 @@ Questo progetto fornisce uno scaffolding basato su Vite, React e TypeScript, arr
 - **Gestione dello Stato Globale:** Utilizzo di Zustand per una gestione semplice e potente dello stato globale dell'applicazione.
 - **Routing Preimpostato:** Alcune rotte di base già configurate per facilitare lo sviluppo.
 
-## Comandi da Terminale
-
-- **Build Produzione:** 
-  ```bash
-  npm run build
-Prepara l'applicazione per il deployment, utilizzando le configurazioni di produzione.
-
-- **Build Staging:** 
-  ```bash
-  npm run build-staging
-Esegue una build con l'ambiente di staging, seguita da istruzioni post-build per avviare un server locale.
-
-- **Build Testing:** 
-  ```bash
-  npm run build-testing
-Esegue una build con l'ambiente di testing, seguita da istruzioni post-build per avviare un server locale.
 
 ## Configurazione del Progetto
 
@@ -41,6 +27,23 @@ Esegue una build con l'ambiente di testing, seguita da istruzioni post-build per
 4. **Build e Deployment:**
 
    Scegli tra `npm run build-staging` e `npm run build-testing` per eseguire la build dell'applicazione. Segui le istruzioni post-build per servire l'applicazione localmente.
+
+## Comandi da Terminale
+
+- **Build Produzione:** 
+  ```bash
+  npm run build
+Prepara l'applicazione per il deployment, utilizzando le configurazioni di produzione.
+
+- **Build Staging:** 
+  ```bash
+  npm run build-staging
+Esegue una build con l'ambiente di staging, seguita da istruzioni post-build per avviare un server locale.
+
+- **Build Testing:** 
+  ```bash
+  npm run build-testing
+Esegue una build con l'ambiente di testing, seguita da istruzioni post-build per avviare un server locale.
 
 ## Collaborazione e Contributi
 
