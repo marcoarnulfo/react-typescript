@@ -1,0 +1,66 @@
+
+// Generate padding classes, from 5px to 150px, with 5px steps
+@for $i from 1 through 30 {
+    $value: $i * 5;
+
+    .p_#{$value} {
+        padding: #{$value}px;
+    }
+
+    .pt_#{$value} {
+        padding-top: #{$value}px;
+    }
+
+    .pb_#{$value} {
+        padding-bottom: #{$value}px;
+    }
+
+    .py_#{$value} {
+        padding-top: #{$value}px;
+        padding-bottom: #{$value}px;
+    }
+
+    .pl_#{$value} {
+        padding-left: #{$value}px;
+    }
+
+    .pr_#{$value} {
+        padding-right: #{$value}px;
+    }
+
+    .px_#{$value} {
+        padding-left: #{$value}px;
+        padding-right: #{$value}px;
+    }
+
+    .m_#{$value} {
+        margin: #{$value}px;
+    }
+
+    .mt_#{$value} {
+        margin-top: #{$value}px;
+    }
+
+    .mb_#{$value} {
+        margin-bottom: #{$value}px;
+    }
+
+    .my_#{$value} {
+        margin-top: #{$value}px;
+        margin-bottom: #{$value}px;
+    }
+
+    .ml_#{$value} {
+        margin-left: #{$value}px;
+    }
+
+    .mr_#{$value} {
+        margin-right: #{$value}px;
+    }
+
+    .mx_#{$value} {
+        margin-left: #{$value}px;
+        margin-right: #{$value}px;
+    }
+
+}

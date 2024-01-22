@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import apiService from '../../services/api.service';
-
 import { useCounter } from '../../store/store';
 
 export default function Home() {
@@ -32,6 +31,9 @@ const decrement = useCounter(state => state.decrement)
 
     return (
         <div>
+            <div className=''>
+                <div>home</div>
+            </div>
             Home_
             <div>{count}</div>
             <div>
