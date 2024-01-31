@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom"
 
 
 
-import React from "react"
+import React, { Suspense } from "react"
 
 // import pages lazily to reduce bundle size
 const Home = React.lazy(() => import('./pages/Home/Home'))
@@ -15,11 +15,13 @@ function App() {
 
 
   return (
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      {/* MUST be last one */}
-      <Route path="*" element={<Error/>} />
-    </Routes>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* MUST be last one */}
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </Suspense>
   )
 }
 
